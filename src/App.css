@@ -1,0 +1,73 @@
+
+.data_container {
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/hero_bg_desktop.png);
+  background-size: contain;
+}
+
+.App, html {
+  background-color: #000;
+}
+
+.App h1, .about {
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  padding:0 50px 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.needToComplete p {
+  background-color: #8C1612;
+  color: #fff;
+}
+
+.challenge h2 {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.card {
+  padding: 10px;
+    border-radius: 25px;
+    background-color: #7e8082;
+    margin-top: 20px;
+}
+
+.menu ul {
+  text-align: center;
+  padding: 0;
+}
+
+.menu li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.menu a {
+  color: #7e8082;
+  font-size: 2rem;
+}
+
+#andrew, #ian, #joe {
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .data_container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .menu {
+    display: none;
+  }
+}
