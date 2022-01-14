@@ -9,6 +9,19 @@ html {
   background-size: contain;
 }
 
+.Key {
+  display: flex;
+  color:white;
+  justify-content: center;
+}
+
+.Key p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 200px;
+  text-align:center;
+}
+
 .App, html {
   background-color: #000;
 }
@@ -57,6 +70,30 @@ html {
 .menu a {
   color: #7e8082;
   font-size: 2rem;
+}
+
+.pinnacle {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(214, 238, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.powerful-1 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(3, 70, 216);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.powerful-2 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(95, 0, 114);
+  border-radius: 50%;
+  display: inline-block;
 }
 
 #andrew, #ian, #joe {

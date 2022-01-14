@@ -22,7 +22,7 @@ class JoeData extends Component {
     
       render() {
         const checklist = this.state.checklist
-        const vanguardBounties =  checklist["270949152"]
+        const vanguardBounties =  checklist["2709491520"]
         const vanguardNightfall = checklist["1942283261"]
         const vanguardBurn = checklist["1437935813"]
         const gloryPlaylist = checklist["1368032265"]
@@ -30,7 +30,7 @@ class JoeData extends Component {
         const crucibleBounties = checklist["2594202463"]
         const gambitMatches = checklist["3448738070"]
         const gambitBounties = checklist["3802603984"]
-        const dares = checklist["2351139753"]
+        const dares = checklist["295129163"]
         const grasp = checklist["973171461"]
         const gunsmith = checklist["3899487295"]
         const salvation = checklist["2712317338"]
@@ -55,27 +55,27 @@ class JoeData extends Component {
                         <h2>Vanguard</h2>
                         <div>
                        {vanguardBounties ? (
-                           <span className='needToComplete'>
-                           <p>Vanguard Bounties: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Vanguard Bounties: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>Vanguard Bounties: Completed</p>
                        )}
                        </div>
                        <div>
                        {vanguardNightfall ? (
-                           <span className='needToComplete'>
-                           <p>Vanguard Nightfall: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Vanguard Nightfall: Need to complete <span className='powerful-1'></span></p>
+                           </div>
                        ) : (
                            <p>Vanguard Nightfall: Completed</p>
                        )}
                        </div>
                        <div>
                        {vanguardBurn ? (
-                           <span className='needToComplete'>
-                           <p>Vanguard Burn Strikes: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Vanguard Burn Strikes: Need to complete <span className='powerful-1'></span></p>
+                           </div>
                        ) : (
                            <p>Vanguard Burn Strikes: Completed</p>
                        )}
@@ -85,27 +85,27 @@ class JoeData extends Component {
                        <h2>Crucible</h2>
                        <div>
                        {gloryPlaylist ? (
-                           <span className='needToComplete'>
-                           <p>Glory Playlist Wins: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Glory Playlist Wins: Need to complete <span className='powerful-1'></span></p>
+                           </div>
                        ) : (
                            <p>Glory Playlist Wins: Completed</p>
                        )}
                        </div>
                        <div>
                        {crucibleMatches ? (
-                           <span className='needToComplete'>
-                           <p>3 Crucible Matches: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>3 Crucible Matches: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>3 Crucible Matches: Completed</p>
                        )}
                        </div>
                        <div>
                        {crucibleBounties ? (
-                           <span className='needToComplete'>
-                           <p>Crucible Bounties: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Crucible Bounties: Need to complete <span className='powerful-1'></span></p>
+                           </div>
                        ) : (
                            <p>Crucible Bounties: Completed</p>
                        )}
@@ -115,18 +115,18 @@ class JoeData extends Component {
                        <h2>Gambit</h2>           
                        <div>
                        {gambitMatches ? (
-                           <span className='needToComplete'>
-                           <p>Gambit Matches: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Gambit Matches: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
-                           <p>Gambit Matches: Completed</p>
+                           <p>Gambit Matches: Completed </p>
                        )}
                        </div>
                        <div>
                        {gambitBounties ? (
-                           <span className='needToComplete'>
-                           <p>Gambit Bounties: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Gambit Bounties: Need to complete <span className='powerful-1'></span></p>
+                           </div>
                        ) : (
                            <p>Gambit Bounties: Completed</p>
                        )}
@@ -135,19 +135,19 @@ class JoeData extends Component {
                        <section className='challenge'>
                        <h2>Dares of Eternity</h2>
                        {dares ? (
-                           <span className='needToComplete'>
-                           <p>1 round of Dares of Eternity: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Complete rounds of Dares of Eternity: Need to complete <span className='powerful-1'></span></p>
+                           </div>
                        ) : (
-                           <p>1 round of Dares of Eternity: Completed</p>
+                           <p>Complete rounds of round of Dares of Eternity: Completed</p>
                        )}
                         </section>
                         <section className='challenge'>
                        <h2>Gunsmith Bounties</h2>
                        {gunsmith ? (
-                           <span className='needToComplete'>
-                           <p>8 Gunsmith Bounties: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>8 Gunsmith Bounties: Need to complete <span className='powerful-1'></span></p>
+                           </div>
                        ) : (
                            <p>8 Gunsmith Bounties: Completed</p>
                        )}
@@ -158,9 +158,9 @@ class JoeData extends Component {
                         <section className='challenge'>
                         <h2>Grasp of Avarice</h2>
                        {grasp ? (
-                           <span className='needToComplete'>
-                           <p>Grasp of Avarice: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Grasp of Avarice: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>Grasp of Avarice: Completed</p>
                        )}
@@ -171,9 +171,9 @@ class JoeData extends Component {
                         <section className='challenge'>
                         <h2>Vault of Glass</h2>
                        {vog ? (
-                           <span className='needToComplete'>
-                           <p>Vault of Glass: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Vault of Glass: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>Vault of Glass: Completed</p>
                        )}
@@ -181,9 +181,9 @@ class JoeData extends Component {
                         <section className='challenge'>
                         <h2>Deep Stone Crypt</h2>
                        {dsc ? (
-                           <span className='needToComplete'>
-                           <p>Deep Stone Crypt: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Deep Stone Crypt: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>Deep Stone Crypt: Completed</p>
                        )}
@@ -191,9 +191,9 @@ class JoeData extends Component {
                         <section className='challenge'>
                         <h2>Garden of Salvation</h2>
                        {salvation ? (
-                           <span className='needToComplete'>
-                           <p>Garden of Salvation: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>Garden of Salvation: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>Garden of Salvation: Completed</p>
                        )}
@@ -204,9 +204,9 @@ class JoeData extends Component {
                         <section className='challenge'>
                         <h2>Trials of Osiris Wins</h2>
                        {trialswin ? (
-                           <span className='needToComplete'>
-                           <p>7 Trials Wins: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>7 Trials Wins: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>7 Trials Wins: Completed</p>
                        )}
@@ -214,33 +214,22 @@ class JoeData extends Component {
                         <section className='challenge'>
                         <h2>Trials of Osiris Round Wins</h2>
                        {trials ? (
-                           <span className='needToComplete'>
-                           <p>50 Trials of Osiris Round Wins: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>50 Trials of Osiris Round Wins: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>50 Trials of Osiris Round Wins: Completed</p>
                        )}
                         </section>
-
                     </div>
                     <div className='seasonal card'>
                     <h2>Seasonal</h2>
                         <section className='challenge'>
-                        <h2>Europa Bounties</h2>
-                       {europa ? (
-                           <span className='needToComplete'>
-                           <p>8 Europa Bounties: Need to complete</p>
-                           </span>
-                       ) : (
-                           <p>8 Europa Bounties: Completed</p>
-                       )}
-                        </section>
-                        <section className='challenge'>
                         <h2>Wayfinder Compass Bounties</h2>
                        {wayfinder ? (
-                           <span className='needToComplete'>
-                           <p>8 Wayfinder Bounties: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>8 Wayfinder Bounties: Need to complete <span className='powerful-1'></span></p>
+                           </div>
                        ) : (
                            <p>8 Wayfinder Bounties: Completed</p>
                        )}
@@ -248,9 +237,9 @@ class JoeData extends Component {
                         <section className='challenge'>
                         <h2>Shattered Realm Champions</h2>
                        {shattered ? (
-                           <span className='needToComplete'>
-                           <p>4 Shattered Realm Champions: Need to complete</p>
-                           </span>
+                           <div className='needToComplete'>
+                           <p>4 Shattered Realm Champions: Need to complete <span className='pinnacle'></span></p>
+                           </div>
                        ) : (
                            <p>4 Shattered Realm Champions: Completed</p>
                        )}
