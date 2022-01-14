@@ -182,20 +182,10 @@ class IanData extends Component {
                         <h2>Deep Stone Crypt</h2>
                        {dsc ? (
                            <div className='needToComplete'>
-                           <p>Deep Stone Crypt: Need to complete <span className='pinnacle'></span></p>
+                           <p>Deep Stone Crypt: Need to complete <span className='powerful-3'></span></p>
                            </div>
                        ) : (
                            <p>Deep Stone Crypt: Completed</p>
-                       )}
-                        </section>
-                        <section className='challenge'>
-                        <h2>Garden of Salvation</h2>
-                       {salvation ? (
-                           <div className='needToComplete'>
-                           <p>Garden of Salvation: Need to complete <span className='pinnacle'></span></p>
-                           </div>
-                       ) : (
-                           <p>Garden of Salvation: Completed</p>
                        )}
                         </section>
                     </div>

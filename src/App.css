@@ -83,12 +83,20 @@ html {
 .powerful-1 {
   height: 15px;
   width: 15px;
-  background-color: rgb(3, 70, 216);
+  background-color: rgb(14, 167, 0);
   border-radius: 50%;
   display: inline-block;
 }
 
 .powerful-2 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(0, 40, 172);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.powerful-3 {
   height: 15px;
   width: 15px;
   background-color: rgb(95, 0, 114);
