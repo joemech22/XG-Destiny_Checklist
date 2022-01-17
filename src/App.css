@@ -1,18 +1,21 @@
 html {
   scroll-behavior: smooth;
+  background-image: radial-gradient(circle, #006064, #26C6DA);
 }
 
 .data_container {
   display: flex;
   justify-content: center;
-  background-image: url(./images/hero_bg_desktop.png);
-  background-size: contain;
+  color: #fff;
 }
 
 .Key {
   display: flex;
   color:white;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #858585f5;
 }
 
 .Key p {
@@ -20,10 +23,6 @@ html {
   margin-right: 2rem;
   width: 200px;
   text-align:center;
-}
-
-.App, html {
-  background-color: #000;
 }
 
 .App h1, .about {
@@ -40,21 +39,29 @@ html {
   pointer-events: none;
 }
 
+.completed img {
+  height: 25px;
+  vertical-align: bottom;
+}
+
 .needToComplete p {
   background-color: #8C1612;
   color: #fff;
+  border-radius: 15px;
+  padding:10px;
 }
 
 .challenge h2 {
-  text-decoration: underline;
   font-weight: normal;
 }
+
 
 .card {
   padding: 10px;
     border-radius: 25px;
-    background-color: #7e8082;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.137);
+    border: 2px solid #006064;
 }
 
 .menu ul {
@@ -68,7 +75,7 @@ html {
 }
 
 .menu a {
-  color: #7e8082;
+  color: #fff;
   font-size: 2rem;
 }
 
@@ -78,6 +85,7 @@ html {
   background-color: rgb(214, 238, 0);
   border-radius: 50%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .powerful-1 {
@@ -86,6 +94,7 @@ html {
   background-color: rgb(14, 167, 0);
   border-radius: 50%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .powerful-2 {
@@ -94,6 +103,7 @@ html {
   background-color: rgb(0, 40, 172);
   border-radius: 50%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .powerful-3 {
@@ -102,15 +112,31 @@ html {
   background-color: rgb(95, 0, 114);
   border-radius: 50%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 #andrew, #ian, #joe {
   color: #fff;
 }
 
+.destiny_image {
+  width: 450px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 25px;
+}
+
 @media screen and (max-width: 500px) {
   .data_container {
     display: block;
+  }
+  .Key {
+    display: block;
+  }
+  .Key p {
+    width: auto;
   }
 }
 

@@ -56,10 +56,10 @@ class JoeData extends Component {
                         <div>
                        {vanguardBounties ? (
                            <div className='needToComplete'>
-                           <p>Vanguard Bounties: Need to complete <span className='pinnacle'></span></p>
+                           <p>Vanguard Bounties: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>Vanguard Bounties: Completed</p>
+                           <p>Vanguard Bounties: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                        </div>
                        <div>
@@ -68,7 +68,7 @@ class JoeData extends Component {
                            <p>Vanguard Nightfall: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>Vanguard Nightfall: Completed</p>
+                           <p>Vanguard Nightfall: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                        </div>
                        <div>
@@ -77,7 +77,7 @@ class JoeData extends Component {
                            <p>Vanguard Burn Strikes: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>Vanguard Burn Strikes: Completed</p>
+                           <p>Vanguard Burn Strikes: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                        </div>
                        </section>
@@ -89,7 +89,7 @@ class JoeData extends Component {
                            <p>Glory Playlist Wins: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>Glory Playlist Wins: Completed</p>
+                           <p>Glory Playlist Wins: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                        </div>
                        <div>
@@ -98,7 +98,7 @@ class JoeData extends Component {
                            <p>3 Crucible Matches: Need to complete <span className='pinnacle'></span></p>
                            </div>
                        ) : (
-                           <p>3 Crucible Matches: Completed</p>
+                           <p>3 Crucible Matches: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                        </div>
                        <div>
@@ -107,7 +107,7 @@ class JoeData extends Component {
                            <p>Crucible Bounties: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>Crucible Bounties: Completed</p>
+                           <p>Crucible Bounties: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                        </div>
                        </section>
@@ -119,7 +119,7 @@ class JoeData extends Component {
                            <p>Gambit Matches: Need to complete <span className='pinnacle'></span></p>
                            </div>
                        ) : (
-                           <p>Gambit Matches: Completed </p>
+                           <p>Gambit Matches: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                        </div>
                        <div>
@@ -128,7 +128,7 @@ class JoeData extends Component {
                            <p>Gambit Bounties: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>Gambit Bounties: Completed</p>
+                           <p>Gambit Bounties: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                        </div>
                        </section>
@@ -139,7 +139,7 @@ class JoeData extends Component {
                            <p>Complete rounds of Dares of Eternity: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>Complete rounds of round of Dares of Eternity: Completed</p>
+                           <p>Complete rounds of round of Dares of Eternity: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                         <section className='challenge'>
@@ -149,7 +149,7 @@ class JoeData extends Component {
                            <p>8 Gunsmith Bounties: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>8 Gunsmith Bounties: Completed</p>
+                           <p>8 Gunsmith Bounties: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                     </div>
@@ -162,7 +162,7 @@ class JoeData extends Component {
                            <p>Grasp of Avarice: Need to complete <span className='pinnacle'></span></p>
                            </div>
                        ) : (
-                           <p>Grasp of Avarice: Completed</p>
+                           <p>Grasp of Avarice: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                     </div>
@@ -175,7 +175,7 @@ class JoeData extends Component {
                            <p>Vault of Glass: Need to complete <span className='pinnacle'></span></p>
                            </div>
                        ) : (
-                           <p>Vault of Glass: Completed</p>
+                           <p>Vault of Glass: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                         <section className='challenge'>
@@ -185,7 +185,7 @@ class JoeData extends Component {
                            <p>Deep Stone Crypt: Need to complete <span className='powerful-3'></span></p>
                            </div>
                        ) : (
-                           <p>Deep Stone Crypt: Completed</p>
+                           <p>Deep Stone Crypt: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                     </div>
@@ -198,7 +198,7 @@ class JoeData extends Component {
                            <p>7 Trials Wins: Need to complete <span className='pinnacle'></span></p>
                            </div>
                        ) : (
-                           <p>7 Trials Wins: Completed</p>
+                           <p>7 Trials Wins: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                         <section className='challenge'>
@@ -208,7 +208,7 @@ class JoeData extends Component {
                            <p>50 Trials of Osiris Round Wins: Need to complete <span className='pinnacle'></span></p>
                            </div>
                        ) : (
-                           <p>50 Trials of Osiris Round Wins: Completed</p>
+                           <p>50 Trials of Osiris Round Wins: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                     </div>
@@ -221,7 +221,7 @@ class JoeData extends Component {
                            <p>8 Wayfinder Bounties: Need to complete <span className='powerful-1'></span></p>
                            </div>
                        ) : (
-                           <p>8 Wayfinder Bounties: Completed</p>
+                           <p>8 Wayfinder Bounties: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                         <section className='challenge'>
@@ -231,7 +231,7 @@ class JoeData extends Component {
                            <p>4 Shattered Realm Champions: Need to complete <span className='pinnacle'></span></p>
                            </div>
                        ) : (
-                           <p>4 Shattered Realm Champions: Completed</p>
+                           <p>4 Shattered Realm Champions: Completed<span className='completed'><img src={require('../images/outline_done_white_18dp.png')}></img></span></p>
                        )}
                         </section>
                     </div>
