@@ -16,8 +16,9 @@ function App() {
         <Menu/>
 
         <AndrewData />
-        <IanData />
         <JoeData />
+        <IanData />
+        
     </div>
       <About/>
     </div>
